@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="220" verticalHuggingPriority="300" horizontalCompressionResistancePriority="220" verticalCompressionResistancePriority="300" id="iN0-l3-epB" customClass="ResetnicknameView" propertyAccessControl="none">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="修改昵称" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="220" translatesAutoresizingMaskIntoConstraints="NO" id="jYn-as-ptX">
+                    <rect key="frame" x="0.0" y="0.0" width="260" height="49"/>
+                    <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="16" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="cYP-SH-4DI">
+                    <rect key="frame" x="24" y="83" width="260" height="30"/>
+                    <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="16"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                </textField>
+                <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LiL-6p-iiz">
+                    <rect key="frame" x="24" y="121" width="581" height="1"/>
+                    <color key="backgroundColor" red="0.779000947" green="0.779000947" blue="0.779000947" alpha="1" colorSpace="calibratedRGB"/>
+                    <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                </view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aLK-Xi-Xrn">
+                    <rect key="frame" x="-203" y="241" width="600" height="1"/>
+                    <color key="backgroundColor" red="0.779000947" green="0.779000947" blue="0.779000947" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LLs-Jm-sDP">
+                    <rect key="frame" x="65" y="250" width="130" height="28"/>
+                    <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="16"/>
+                    <state key="normal" title="保存">
+                        <color key="titleColor" red="0.67450980392156867" green="0.47058823529411764" blue="0.15294117647058825" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="此昵称仅在居+等社区场景显示" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3b-fR-DuM">
+                    <rect key="frame" x="24" y="121" width="220" height="30"/>
+                    <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="13"/>
+                    <color key="textColor" red="0.462594697" green="0.462594697" blue="0.462594697" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="昵称" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nfm-O2-JVa">
+                    <rect key="frame" x="0.0" y="45" width="85" height="30"/>
+                    <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="16"/>
+                    <color key="textColor" red="0.46259469696969702" green="0.46259469696969702" blue="0.46259469696969702" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="bottomLine" destination="aLK-Xi-Xrn" id="cVz-M8-pFP"/>
+                <outlet property="messageL" destination="f3b-fR-DuM" id="DtH-Z5-0n4"/>
+                <outlet property="nickTF" destination="cYP-SH-4DI" id="ix3-c4-7fP"/>
+                <outlet property="nicknameL" destination="Nfm-O2-JVa" id="L7R-O4-4oZ"/>
+                <outlet property="sureBtn" destination="LLs-Jm-sDP" id="V6w-d4-rkH"/>
+                <outlet property="titleL" destination="jYn-as-ptX" id="rfb-hm-rVa"/>
+                <outlet property="topLine" destination="LiL-6p-iiz" id="54V-T9-tF0"/>
+            </connections>
+            <point key="canvasLocation" x="413" y="347"/>
+        </view>
+    </objects>
+</document>

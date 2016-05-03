@@ -1,0 +1,6 @@
+module DSActivityIndicatorSDWebImage {
+  umbrella header "DSActivityIndicatorSDWebImage-umbrella.h"
+
+  export *
+  module * { export * }
+}

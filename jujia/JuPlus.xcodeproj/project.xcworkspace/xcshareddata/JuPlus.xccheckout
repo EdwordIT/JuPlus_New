@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2E50D8AC-E2B9-45C4-8AA9-720A9BD01B49</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JuPlus</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5E833631CA47DABBDC9F1CE80232CA23E4D3E0C3</key>
+		<string>https://github.com/EdwordIT/JuPlus.git</string>
+		<key>C4BD6FCDC40BBCAB167942B5F1F41C7E72272C94</key>
+		<string>https://github.com/EdwordIT/JuPlus_New.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JuPlus.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5E833631CA47DABBDC9F1CE80232CA23E4D3E0C3</key>
+		<string>../..</string>
+		<key>C4BD6FCDC40BBCAB167942B5F1F41C7E72272C94</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/EdwordIT/JuPlus.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5E833631CA47DABBDC9F1CE80232CA23E4D3E0C3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C4BD6FCDC40BBCAB167942B5F1F41C7E72272C94</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5E833631CA47DABBDC9F1CE80232CA23E4D3E0C3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>jujia</string>
+		</dict>
+	</array>
+</dict>
+</plist>

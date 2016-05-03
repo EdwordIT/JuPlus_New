@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5E833631CA47DABBDC9F1CE80232CA23E4D3E0C3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5E833631CA47DABBDC9F1CE80232CA23E4D3E0C3" : 0,
+    "C4BD6FCDC40BBCAB167942B5F1F41C7E72272C94" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7FA0E30A-0A5C-46CD-BA9A-BADDA25CD9AA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5E833631CA47DABBDC9F1CE80232CA23E4D3E0C3" : "JuPlus",
+    "C4BD6FCDC40BBCAB167942B5F1F41C7E72272C94" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "JuPlus",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "JuPlus.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/EdwordIT\/JuPlus.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5E833631CA47DABBDC9F1CE80232CA23E4D3E0C3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/EdwordIT\/JuPlus_New.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C4BD6FCDC40BBCAB167942B5F1F41C7E72272C94"
+    }
+  ]
+}
